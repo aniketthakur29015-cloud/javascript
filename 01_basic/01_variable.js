@@ -1,7 +1,7 @@
-const accountId = 123344
-let accountEmail= "hello@gmail.com"
-var accountPassword = '23344'
-accountCity = 'Jaipur'
+const accountId = 123344//const – declares a variable whose value cannot be reassigned.
+let accountEmail= "hello@gmail.com"//let – declares a variable whose value can be changed.
+var accountPassword = '23344'//const – declares a variable whose value cannot be reassigned.
+accountCity = 'Jaipur'//we can also assign value without define the data type but that not a goood practice.
 
 // accountId = 55566-> not allow.
 accountEmail="aniket@gmail.com"
