@@ -43,3 +43,9 @@ console.log(booleanLoggedIn1)//false
 let isLoggedIn2 = "hitesh"
 let booleanLoggedIn2 = Boolean(isLoggedIn2)//typecasting
 console.log(booleanLoggedIn2)//true
+
+//boolean conversion
+//1 =>true
+//""=>false
+//"hitesh"=>true
+
