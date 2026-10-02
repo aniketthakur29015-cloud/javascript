@@ -8,9 +8,6 @@ console.log(myYoutubeChannel)//Aniketyt
 console.log(anotherYtName)//helloyt
 
 
-
-
-
 //(ii)heap memory:-non primitive data type
 //-->in heap it gives the refrence of the object and the veriable if we change 
 // anything it will affects the original one.
