@@ -8,7 +8,7 @@ console.log(mystr.__proto__)//accessing the prototype.String.prototype is an obj
 
 //METHODS
 //(i)LENGTH
-console.log(mystr.length)
+console.log(mystr.length)//length is not a function in string.
 
 //(ii)toUpperCase()
 console.log(mystr.toUpperCase())//ANIKET,But this will not going to change in orignal string because it follows stack memory  
