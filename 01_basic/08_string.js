@@ -14,10 +14,10 @@ console.log(mystr.length)//length is not a function in string.
 console.log(mystr.toUpperCase())//ANIKET,But this will not going to change in orignal string because it follows stack memory  
 
 //(iii)charAt()
-console.log(mystr.charAt(2))//i
+console.log(mystr.charAt(2))//i,it will return the character present in the given index
 
 //(iv)indexOf()
-console.log(mystr.indexOf("t"))//5
+console.log(mystr.indexOf("t"))//5,it will return index of the the enter character.
 
 //(v)substring()
 const newstring= mystr.substring(0,4)//we only can give +ve value we give -ve value then it count -ve as a 0.
@@ -29,7 +29,7 @@ console.log(anotherstring)//Anik
 
 //(vii)trim()
 const str2="       aniket.     "
-console.log(str2.trim())//ths remove the un nessasary white spaces and new lines 
+console.log(str2.trim())//this remove all the unnessasary white spaces and new lines present in string.
 //output:-aniket.
 
 //(viii)replace()
@@ -38,6 +38,7 @@ console.log(url.replace("%30","-"));//https//:Aniket.com/aniket-thakur
 
 //(ix)includes()
 console.log(url.includes("Aniket"))//true
+-->This will return the Boolean value if the given string is present then it return true otherwise it return false.
 
 //(x)split()
 const str3="hello-guys-my-self"
