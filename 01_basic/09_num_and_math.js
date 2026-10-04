@@ -20,7 +20,7 @@ console.log(otherNumber.toPrecision(2))
 
 //(iv)toLocalString()
 const hundred = 100000
-console.log(hundred.toLocaleString("en-IN"))
+console.log(hundred.toLocaleString("en-IN"))//1,00,000
 
 // +++++++++++++++++++++++++++++++++ Maths ++++++++++++++++++++++++++++++++++++++++++++++
 console.log(Math);
