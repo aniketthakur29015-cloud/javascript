@@ -4,6 +4,7 @@
 let myYoutubeChannel = "Aniketyt"
 let anotherYtName = myYoutubeChannel
 anotherYtName="helloyt"
+//-->the primitive data type are int,float,string,Boolean,null,undefined,etc
 console.log(myYoutubeChannel)//Aniketyt
 console.log(anotherYtName)//helloyt
 
@@ -11,6 +12,7 @@ console.log(anotherYtName)//helloyt
 //(ii)heap memory:-non primitive data type
 //-->in heap it gives the refrence of the object and the veriable if we change 
 // anything it will affects the original one.
+//non primitive data types are-->array,object, functions
 let obj={
     email:"aniketthakur@gmail.com",
     upi:"sbi@ybl"
