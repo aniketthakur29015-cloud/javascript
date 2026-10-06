@@ -11,7 +11,7 @@ console.log(typeof myDate);//Object
 let myCreatedDate = new Date("2023,0,23")//("year,month :-start from 0 in js,Day")
 let myCreatedDate1 = new Date("2023,0,23,5,3")//("year,month :-start from 0 in js,Day,hour,min,sec")
 
-
-
+let myDate = new Date("24-01-203")//indian date style
+console.log(myDate.tolocalstring())
 
 let myCreatedDate
