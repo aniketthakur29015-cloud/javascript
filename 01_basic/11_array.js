@@ -12,11 +12,15 @@ console.log(myArr)//[0,1,2,3,4,5]
 myArr.pop()//remove element from the end of the array
 console.log(myArr)//[0,1,2,3,4]
 
-//(3)unshift
+//(3)unshift()
 myArr.unshift(4)//add element in the front of the array
 console.log(myArr)//[4,0,1,2,3,4]
 
-//(4)shift
+//(4)shift()
 myArr.shift()//remove element from the front of the array
 console.log(myArr)//[0,1,2,3,4]
+
+//(5)slice()
+const myArr1 = myArr.slice(1,3)
+console.log(myArr1)
 
