@@ -22,5 +22,12 @@ console.log(myArr)//[0,1,2,3,4]
 
 //(5)slice()
 const myArr1 = myArr.slice(1,3)
-console.log(myArr1)
+
+ don't manipulate the original array
+
+//(6)splice()
+const myArr2 = myArr.splice(1,3)
+console.log(myArr2)//[1,2,3]
+
+
 
